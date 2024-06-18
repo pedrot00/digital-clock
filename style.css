@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(120deg,#ffe53bd8, #ff2525da);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    transition: all 0.7s ease;
+    margin-bottom: 20px;
+}
+
+.relogio:hover{
+    transform: scale(1.1);
+    
+}
+
+#box{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+    transition: all 0.7s ease;
+}
+
+#box:hover{
+    transition: 0.7s;
+    color: black;
+    background: white;
+    transform: scale(1.1);
+}
+
+
+.relogio span{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
+
+.manha{
+    height: 100vh;
+    background: linear-gradient(to bottom, #89b5d2, #e0e8f0, #ffffff);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tarde{
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.noite{
+    height: 100vh;
+    background: linear-gradient(#0d0d1c, #1b1b36, #2a2a51, #49496f, #656976);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.madrugada{
+    height: 100vh;
+    background: linear-gradient(to top,#804e9c,#6f99a8);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.text {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px; 
+    color: white;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
